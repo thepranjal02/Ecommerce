@@ -46,9 +46,6 @@ const productslice = createSlice({
                 state.totalAddedPrice -= item.totalprice;
                 
             }
-            else {
-
-            }
         }
     },
     extraReducers: (builder) => {
